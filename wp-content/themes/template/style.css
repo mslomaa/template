@@ -218,7 +218,8 @@ a {
     font-family: Quicksand;
     font-size: 24px;
     color: #1C3E95;
-    padding: 35px;
+    padding-left: 35px;
+    padding-top: 25px;
 
 }
 
@@ -236,9 +237,11 @@ a {
     text-align: center;
     text-decoration: none;
     border: none;
+    margin-left: 29%;
 
 }
 .contact-box-checkbox {
+    display: flex;
     font-size: 13px;
     font-family: Lato;
     margin-left: 35px;
@@ -268,6 +271,13 @@ a {
     padding-left: 10px;
     margin-top: 15px;
     font-size: 17px;
+}
+
+.contact-box-checkbox-text {
+    color:rgb(185, 184, 184);
+    font-size: 13px;
+    padding-left:10px;
+    padding-right: 45px;
 }
 
 
