@@ -33,6 +33,7 @@ body, html {
     width: 100%;
     height: 100px;
     padding-left: 300px;
+    margin-bottom: 20px;
 }
 
 .navbar-menu {
@@ -115,6 +116,37 @@ a {
 .content-box-one {
     width: 100%;
     height: 732px;
+    background-image: url(./images/bg-box-one.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content-box-one-shadow {
+    position: relative;
+    width: 100%;
+    height: 259px;
+    background-color: #1C3E95;opacity: 0.75;
+    top: 473px;
+}
+
+.content-box-one-text-one {
+    position: absolute;
+    font-size: 52px;
+    font-family: Quicksand;
+    color: #FE7A22;
+    padding-left: 340px;
+    padding-top: 250px;
+}
+
+.content-box-one-text-two {
+    position: absolute;
+    font-size: 30px;
+    font-family: Quicksand;
+    color: #FFFFFF;
+    padding-left: 340px;
+    padding-top: 320px;
+    padding-right: 55%;
+
 }
 
 .content-box-two {
@@ -170,6 +202,73 @@ a {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     transition: 0.3s;
   }
+
+/* CONTACT BOX */
+.contact-box {
+    width: 489px;
+    height: 604px;
+    background-color: #FFFFFF;
+    position: absolute;
+    border-radius: 10px;
+    margin-left: 60%;
+    margin-top: -10%;
+
+}
+.contact-box-text{
+    font-family: Quicksand;
+    font-size: 24px;
+    color: #1C3E95;
+    padding: 35px;
+
+}
+
+.contact-box-button {
+    width: 205px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: #FE7A22 ;
+    color: #FFFFFF;
+    font-family: Quicksand;
+    font-size: 17px;
+    margin-top: 3%;  
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+
+}
+.contact-box-checkbox {
+    font-size: 13px;
+    font-family: Lato;
+    margin-left: 35px;
+    padding-top: 10px;
+}
+
+.contact-box-input input:nth-child(-n+3) {
+    width: 409px;
+    height: 48px;
+    margin-left: 35px;
+    padding-left: 10px;
+    margin-top: 15px;
+    font-size: 17px;
+}
+.contact-box-input input:nth-child(4) {
+    width: 247px;
+    height: 48px;
+    margin-left: 35px;
+    padding-left: 10px;
+    margin-top: 15px;
+    font-size: 17px;
+}
+.contact-box-input input:nth-child(5) {
+    width: 146px;
+    height: 48px;
+    margin-left: 12px;
+    padding-left: 10px;
+    margin-top: 15px;
+    font-size: 17px;
+}
 
 
 /* FOOTER*/

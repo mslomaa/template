@@ -1,5 +1,9 @@
 <div class="content">
     <div class="content-box-one">
+        <div class="content-box-one-shadow"> </div>
+        <div class="content-box-one-text-one">Ubezpieczenia majątkowe</div>
+        <div class="content-box-one-text-two">Skontaktuj się z nami i skorzystaj ze specjalnej oferty!</div>
+        <div class="form-contact"><?php get_template_part('formbox') ?></div>
 
     </div>
     <div class="content-box-two">
