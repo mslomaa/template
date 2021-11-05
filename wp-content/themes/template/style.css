@@ -121,6 +121,59 @@ a {
     background-position: center;
 }
 
+.content-shadow {
+    display: none;
+    position: absolute;
+    width: 99vw;
+    height: 99vh;
+    background-color: black;opacity: 0.5;
+    z-index: 1;
+}
+
+.content-shadow-box{ 
+    display: none;   
+    position: absolute;
+    height: 200px;
+    width: 450px;
+    background-color: #dad8d8;
+    text-align: center;
+    border-radius: 15px;
+    z-index: 2;
+    outline-width: 3px;
+    outline-color: black;
+    margin-top: 250px;
+    margin-left: 700px;
+    outline-style: solid;
+    outline-color: rgb(0, 0, 0);
+    outline-width: 2px;
+}
+
+.content-box-button {
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #FE7A22 ;
+    color: #FFFFFF;
+    font-family: Quicksand;
+    font-size: 17px;
+    margin-top: 3%;  
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    margin-top: 5px;
+
+}
+
+.content-shadow-box-message {
+    font-family: Quicksand;
+    font-size: 19px;
+    color: #1C3E95;
+    margin: 25px;
+
+}
+
 .content-box-one-shadow {
     position: relative;
     width: 100%;

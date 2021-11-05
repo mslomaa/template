@@ -1,4 +1,9 @@
 <div class="content">
+    <div class="content-shadow"></div>
+    <div class="content-shadow-box">
+        <div class="content-shadow-box-message"></div>
+        <button type="button" class="content-box-button">Zamknij</button>
+    </div>
     <div class="content-box-one">
         <div class="content-box-one-shadow"> </div>
         <div class="content-box-one-text-one">Ubezpieczenia majątkowe</div>
