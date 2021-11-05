@@ -1,11 +1,11 @@
 <div class="contact-box">
     <div class="contact-box-text">Podaj dane kontaktowe, a my przygotujemy najlepszą ofertę</div>
     <div class="contact-box-input">
-        <input type="text" placeholder="Imię i nazwisko">
-        <input type="email" placeholder=" Adres e-mail">
-        <input type="number" placeholder="Nr telefonu">
-        <input type="text" placeholder="Miejscowość">
-        <input type="text" placeholder="Kod pocztowy">
+        <input type="text" placeholder="Imię i nazwisko" class="nameSurname">
+        <input type="email" placeholder=" Adres e-mail" class="mail">
+        <input type="number" placeholder="Nr telefonu" class="phoneNumber">
+        <input type="text" placeholder="Miejscowość" class="city">
+        <input type="text" placeholder="Kod pocztowy" class="zipCode">
     </div>
     <div class="contact-box-checkbox">
         <input type="checkbox" name="" id="">
