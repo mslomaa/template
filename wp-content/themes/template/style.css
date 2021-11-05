@@ -13,3 +13,215 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: mateusz
 Tags: sloma
 */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/*  NAVIGATION */
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    padding-left: 300px;
+}
+
+.navbar-menu {
+    display: flex;
+    color: #1C3E95;
+    font-size: 24px;
+    font-weight: medium;
+    padding: 3%;
+
+}
+
+ul {
+
+    list-style-type: none;
+    
+}
+li {
+    margin: 15px;
+}
+
+a {
+    color: #1C3E95;
+    text-decoration: none;
+    
+ }
+
+.navbar-logo {
+
+}
+
+.navbar-logo-box {
+    margin-top: 10px;
+    margin-left: 130px;
+    display: flex;
+}
+
+.navbar-square-one {
+    width: 42px;
+    height: 28px;
+    border-radius: 30% 0%;
+    outline-style: solid;
+    outline-color: #FE7A22;
+    outline-width: 4px;
+}
+
+.navbar-square-two {
+    width: 29px;
+    height: 20px;
+    border-radius: 0% 30%;
+    outline-style: solid;
+    outline-color: #FE7A22;
+    outline-width: 4px;
+    margin-right: 7px;
+    margin-top: 8px;
+}
+
+.navbar-logo-text {
+    display: flex;
+}
+
+.navbar-text-one {
+    color:#0312A0;
+    font-size: 43px;
+    font-weight: 600;
+}
+
+.navbar-text-two {
+    color:#0312A0;
+    font-size: 43px;
+}
+
+.navbar-text-three {
+    color:#0312A0;
+    font-size: 18px;
+    margin-left: 130px;
+}
+
+/* CONTENT */
+
+.content-box-one {
+    width: 100%;
+    height: 732px;
+}
+
+.content-box-two {
+    width: 100%;
+    height: 655px;
+    background-image: url(./images/bg-box-two.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 70px;
+    padding-left: 340px;
+}
+
+.content-box-two-text-one {
+    font-size: 63px;
+    color:#1C3E95;
+    font-family: Quicksand;
+}
+.content-box-two-text-two {
+    font-size: 34px;
+    color: #1C3E95;
+    font-family: Quicksand;
+    padding-top: 1%;
+}
+.content-box-two-text-three {
+    font-size: 17px;
+    font-family: Lato;
+    padding-right: 47%;
+    line-height: 200%;
+}
+.content-box-two-text-three  p{
+    font-weight: bold;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.content-box-two-button {
+    width: 280px;
+    height: 56px;
+    border-radius: 10px;
+    background-color: #FE7A22 ;
+    color: #FFFFFF;
+    font-family: Quicksand;
+    font-size: 17px;
+    margin-top: 3%;  
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+}
+
+.content-box-two-button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transition: 0.3s;
+  }
+
+
+/* FOOTER*/
+
+.footer {
+    display: flex;
+    background-color: #1C3E95;
+    width: 100%;
+    height: 315 px;
+    outline-color: #707070;
+    outline-width: 1px;
+    padding: 75px
+}
+
+.footer-menu-one {
+    margin-left: 250px;
+}
+.footer-menu-two {
+    margin-left: 90px;
+}
+
+.footer-menu-three {
+    margin-left: 50px;
+}
+
+.footer-menu-one a, .footer-menu-two a, .footer-menu-three a {
+    color: #FFFFFF;
+    font-family: Quicksand;
+    font-size: 16px;
+}
+
+.footer-name, .footer-menu-contact-info {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: Quicksand;
+    margin-left: 15px;
+}
+
+
+.footer-menu-one a:hover, .footer-menu-two a:hover, .footer-menu-three a:hover {
+    color: #FE7A22;
+    transition: 0.3s;
+}
+
+.footer-menu-contact {
+    margin-left: 80px;
+}
+
+.footer-menu-contact-phone {
+    color: #FE7A22;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 10px;
+    padding-top: 15px;
+}
